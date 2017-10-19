@@ -1,0 +1,18 @@
+/* ."nombre de la clase => se usa para llamar a las clases"  */
+.biography{
+  background-color: pink;
+  /*para hacer que los parrafos no abarquen toda la pagina utilizamos width para cambiar el ancho que tiene*/
+  width: 70% ; /*width abarcará el 7o% de su padre (que vendria a ser elbody)*/
+  /*aunque cambiemos su ancho, al abrir la consola, elements, hay un espacion al costado de los parrafos, esto nos indica que apesar de los cambios aun se sigue ocupando todo el ancho de la pantalla y esto impide que otros elementos suban a su derecha*/
+  /*para cambias lo mencionado en el comentario anterior, usaremos display inline block para que solo ocupe su espacio necesario y no abarque toda la pnatlla*/
+  display: inline-block;
+
+}
+
+/* esta tabla tiene un display de bloque ==> va a abarcar todo el ancho de la pantalla*/
+.summary{
+  background-color: purple;
+  /* para cambiar el display y que de esa manera ya no abarque toda la pantalla lo cambiamos a inline-block*/
+  display: inline-block; /*ahora la tabla solo ocupa su espacio, lo que necesita*/
+
+}
